@@ -1,0 +1,245 @@
+*{
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto',sans-serif;
+}
+
+
+
+.wrapper {
+    width: 1200px;
+    margin: auto;
+    position: relative;
+}
+
+.logo a {
+    font-size: 25px;
+    font-weight: 800;
+    float: left;
+    font-family: 'Roboto',sans-serif;
+    color:rgb(214, 180, 28);
+}
+
+
+.menu {
+    float: right;
+}
+
+nav {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    line-height: 100px;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    background: black;
+    z-index: 1;
+    box-shadow: 0 7px 15px 0 rgba(0, 0, 0, 0.5s);
+}
+
+nav ul {
+    list-style: none;
+    margin: o;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+
+}
+
+nav ul li a {
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 16px 0px 16px;
+    text-decoration: none;
+
+}  
+
+nav ul li a:hover {
+   color: crimson; 
+   transition: all .3s ease-in-out;
+}
+
+nav ul li img {
+    width: 30px;
+    height: 30pxs;
+    
+}
+section {
+    margin: auto;
+    display: flex;
+    margin-top: auto;
+    margin-bottom: 350px;
+    padding-top: 100px;
+}
+
+img {
+    width: 10cm;
+    border-radius: 50%;
+    padding: 50px;
+    background: white;
+    transition: 0,5s;
+}
+
+.kolom {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.kolom .deskripsi{
+    font-size: 45px;
+    font-weight: bold;
+    font-family: 'comic sans ms';
+    color: #364F6B;
+    border-bottom: 3px solid #364F6B;
+}
+
+h2 {
+    font-family: 'comic sans ms';
+    font-weight: 800;
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: #364F6B;
+    width: 100%;
+    line-height: 20px;
+}
+
+a.tbl-biru{
+    background: #30E3CA ;
+    border-radius: 20px;
+    margin-top: 20px;
+    color: #FFFFFF;
+    padding: 15px 20px 15px 20px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+a.tbl-biru:hover{
+    background: #FC5185;
+    text-decoration: none;
+}
+
+a.tbl-pink{
+    background: #30E3CA ;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 15px 20px 15px 20px;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+a.tbl-pink:hover{
+    background: #FC5185CA ;
+    text-decoration: none;
+}
+
+p{
+    margin: 10px 0px 10px 0px;
+    padding: 10px 0px 10px 0px;
+}
+
+.tengah{
+    text-align: center;
+    height: auto;
+    width: 100%;
+}
+
+.page-list{
+    height: auto;
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    transform: scale(1.1);
+}
+
+.page {
+    width: 100%;
+    margin: 0 auto;
+    font-family: sans-serif;
+    font-weight: bold;
+    padding: 12px 16px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: 0.5s
+    transform: scale(1.1)
+}
+
+
+#contact{
+    background: rgb(187, 147, 46);
+    padding: 50px 0px 50px 0px;
+}
+
+.footer{
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+.footer-section{
+    width: 20%;
+    margin: 0 auto;
+}
+
+h3{
+    font-family: 'comic sans ms';
+    font-weight: 800;
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: #364F6B;
+    width: 100%;
+    line-height: 50px;
+
+
+@media screen and (max-width: 991.98px) {
+    .wrapper {
+        width: 90%;
+    }
+
+    .logo a{
+        display: block;
+        width: 100%;
+        text-align: center
+    }
+
+    nav .menu {
+        width: 100%;
+        margin: 0;
+    }
+
+    nav .menu ul {
+        text-align: center;
+        margin: auto;
+        line-height: 60px;
+    }
+
+    nav .menu ul li {
+        display: inline-block;
+        float: none;
+    }
+
+    section{
+        display: block;
+    }
+
+    section img{
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+}
